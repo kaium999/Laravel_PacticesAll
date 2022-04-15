@@ -13,7 +13,7 @@ class userController extends Controller
         $emplo->uemail=$req->email;
         $emplo->upassword=$req->password;
         $emplo->save();
-        return redirect('user');
+        return redirect('show');
 
     }
     function showUser(){
