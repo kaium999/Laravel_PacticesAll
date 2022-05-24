@@ -26,7 +26,7 @@ class dbController extends Controller
         /*Data Insert
         return DB::table('user')->insert([
             'u_name'=>'shakil',
-            'u_email'=>'shakil@gmail.com',
+            'u_email'=>'shakil@gmail.com',  
             'u_password'=>'1234',
         ]);*/
 

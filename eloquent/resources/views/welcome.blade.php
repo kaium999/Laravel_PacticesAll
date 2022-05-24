@@ -52,6 +52,7 @@
               @foreach($data->post as $comm)
               <td>{{$comm->title}}</td>
               @endforeach
+              
             </tr>
             @endforeach
           </table>
